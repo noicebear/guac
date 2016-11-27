@@ -1,0 +1,8 @@
+forever         # if there is no this option, x11vnc will be stopped after first disconnect
+display :0      # show real display
+passwd password # password 
+nap             # low load
+wait 50         # time between screen pools
+noxrecord       # cann't record the display
+solid 00aa00    # instead of wallpaper will be solid color (of course if you connect with -solid param in viewer)
+fs 1.0          # something for low loading and slow connection
