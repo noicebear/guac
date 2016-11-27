@@ -1,0 +1,17 @@
+<user-mapping>
+    <authorize
+        username="666666"
+        password="66666666"
+        encoding="md5">
+        <connection name="home">
+            <protocol>vnc</protocol>
+            <param name="hostname">localhost</param>
+            <param name="port">5900</param>
+        </connection>
+                <connection name="server2">
+            <protocol>rdp</protocol>
+            <param name="hostname">localhost</param>
+            <param name="port">3389</param>
+        </connection>
+    </authorize>
+</user-mapping>
